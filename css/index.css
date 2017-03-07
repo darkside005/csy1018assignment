@@ -1,0 +1,161 @@
+body{
+	margin:0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+	padding-top: 15px;
+	margin: 0;
+}
+header{
+	margin: auto;
+
+
+}
+.navigation{
+	text-align: right;
+	width: 70%;
+	padding-right: 8px;
+	
+}
+.logo{
+	width: 48%;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px red;
+	font-size: 25px;
+}
+.navigation ul li{
+	list-style: none;
+	font-family: cursive;
+	letter-spacing: 0.5px;
+	padding-right: 10px;
+	padding-left: 10px;
+    color: black;
+
+}
+.navigation ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-flex;
+	flex-direction: row;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	
+
+}
+.navigation ul li a:hover{
+	
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px blue;
+
+}
+.navigation ul li a:focus{
+	color: blue;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+.name{
+	font-family: lobster;
+	padding-left: 5px;
+	text-align: left;
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;	
+}
+#image{
+	
+	padding:10px;
+}
+#contact{
+	text-align: center;
+	padding-left: 5px;
+	width: 50%;
+
+}
+section{
+	background-color: rgb(220, 210, 200);
+	width: 100%;
+	padding: 0px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+
+}
+#contact ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-flex;
+	flex-direction: row;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	
+
+}
+#contact ul li{
+	list-style: none;
+	font-family: cursive;
+	letter-spacing: 0.5px;
+	padding-right: 5px;
+	padding-left: 5px;
+    color: black;
+    display: inline-flex;
+    flex-direction: row;
+    
+
+
+}
+.main{
+	width: 33.33%;
+	padding: 1%;
+}
+footer{
+	background-color: #272822;
+	display: inline-flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+.text{
+	width: 40%;
+	text-align: right;
+	padding: 5px;
+	
+}
+.text h2{
+	padding-top: 0px;
+	display: inline;
+	width: 50%;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px blue;
+}
+#contact h2{
+	padding-top: 0px;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px blue;
+}
+.main a{
+	background-color: yellow;
+    width: 10px;
+    border: 2px solid green;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+    font-weight: bold;
+	text-shadow: 3px 3px 5px red;
+}
+.main h3{
+	font-weight: bold;
+	text-shadow: 3px 3px 5px green;
+	text-align: center;
+	text-decoration: underline;
+}
+.main img{
+	text-align: center;
+	margin-top: 15px;
+	padding-left: 100px;
+
+}
