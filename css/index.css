@@ -160,19 +160,33 @@ footer{
 }
 .main a{
 	color: black;
-    width: 10px;
+    width: 100px;
     border: 2px solid green;
     padding: 5px;
   	border-radius: 25px;
   	text-decoration: none;
   	font-size: 20px;
-  	transition: width 2s, height 4s;
   	margin-left: 0px;
   	text-shadow: 0 0 3px grey, 0 0 5px red;
 }
-.main a:hover{
-	width: 200px;
-	height: 200px;
+.main a #readmore:hover{
+	background-color: red;
+}	
+.main h4{
+	border: 2px solid green;
+	width: 100px;
+	border-radius: 25px;
+  	text-decoration: none;
+  	font-size: 20px;
+  	margin-left: 0px;
+  	text-shadow: 0 0 3px grey, 0 0 5px red;
+  	padding: 5px;
+  	cursor: pointer;
+}
+.main h4:hover{
+
+	transform: translate(20px, 20px);
+	transition: transform 2s ease;
 }
 
 
@@ -243,10 +257,6 @@ footer{
 	text-shadow: 3px 3px 5px blue;
 
 }
-section{
-	background-color:  linear-gradient(to right, #2BC9DE, grey);
-
-}
 .me img{
 	width:150px;
 	margin-right: 10px;
@@ -261,3 +271,55 @@ section{
 
 }
 
+.con .aa form label{
+	font-family: cursive;
+	color: yellow;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 5px;
+	text-shadow: 2px 2px 2px black;
+	font-size: 25px;
+}
+.con .aa form input{
+	border: 1px solid green;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-family: italic;
+	box-shadow: 2px 2px 2px blue;
+	padding: 3% 1%;
+	font-family: cursive;
+	
+	
+}
+
+.con legend{
+	text-align: center;
+	text-shadow: 2px 2px 2px grey;
+	font-size: 25px;
+}
+
+.con{
+	background: linear-gradient(to right, #2BC9DE, grey);	
+	
+}
+
+.con h4{
+	text-shadow: 2px 2px 2px grey;
+	padding-left:15px;
+	font-size: 30px;
+}
+.con .bb img{
+	
+	height: 300px;
+	float: right;
+
+}
+
+.con .aa form{
+
+	margin: 0px;
+	float: left;
+}
+.con iframe{
+	padding-left: 15px;
+}
