@@ -27,9 +27,9 @@ header{ /*header part*/
 .navigation ul li{
 	list-style: none; /* helps to remove the dot */
 	font-family: cursive;/*  text style is set to cursive*/
-	letter-spacing: 0.5%;/* the letter the space of 0.5px from each other*/
+	letter-spacing:0.5%;/* the letter the space of 0.5% from each other*/
 	padding-right: 2%;/*giving padding to the right*/
-	padding-left: 2%px;/* giving padding to the left*/
+	padding-left: 2%;/* giving padding to the left*/
     font-size: 20px;/* letter size is set to 20px as per it need */
     
 }
@@ -333,7 +333,7 @@ footer{
 }
 .cv .inner p{
 	text-shadow: 3px 3px 3px grey;/* text shadow is set to grey which gives grey colour shadow to the text*/
-	font-family: Calibri (Body);
+	font-family: Calibri;
 	padding-left: 10px;/* padding is given to left*/
 	font-size: 19px;
 }
@@ -354,7 +354,7 @@ footer{
 }
 .cv .inner li{
 	font-size: 25px;
-	font-family: Bookshelf Symbol 7;
+
 }
 
 
@@ -435,7 +435,7 @@ button:hover, a:hover {
 
 }
 .skill ul li{
-	text-shadow: text-shadow: 3px 3px 3px grey;/* text shadow set to grey giving the text give a atrractive grey colour shadow*/
+	text-shadow: 3px 3px 3px grey;/* text shadow set to grey giving the text give a atrractive grey colour shadow*/
 }
 .experience{
 	width: 33%;
@@ -457,7 +457,7 @@ button:hover, a:hover {
 	background: linear-gradient(to right, #2BC9DE, grey);/* background given linear gradient property*/
 	padding-left: 10px;/*padding given to left*/
 	padding-right: 10px;/*padding given to right*/
-	word-wrap: all;/* words doesnt overflow*/
+	word-wrap: break-word;/* words doesnt overflow*/
 	font-family: Imprint MT Shadow;
 	font-size: 18px;
 }
