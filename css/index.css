@@ -1,361 +1,356 @@
 body{
-	margin:0 auto;
+	margin:0;/*css of body having margin auto */
+	padding:0;
 }
 h1,h2,h3,h4,h5,h6,p{
-	padding-top: 15px;
-	margin: 0;
+	padding-top: 2%; /* keeping padding top 15px */
+	margin: 0; /*margin is set to 0 so there wont be any margin*/
 
 }
-header{
-	margin-bottom: 0px;
-	background-image: url("../images/blue.jpg")
+header{ /*header part*/
+	margin-bottom: 0px;/* bootom margin set to 0 so there wont be any margin in bottom */
+	background-image: url("../images/blue.jpg") /* keeping background images in the header part*/
 
 }
-.navigation{
-	text-align: right;
-	width: 70%;
-	padding-right: 8px;
+.navigation{/*navigatio part*/
+	text-align: right; /*it helps to keep the text in straight line */
+	width: 60%; /* keeping the width 60% out of 100% */
+	padding-right: 8px; /* giving padding to the right */
 	
 }
 .logo{
-	width: 48%;
-	font-weight: bold;
-	text-shadow: 3px 3px 5px red;
-	font-size: 25px;
+	width: 48%; /*keeping the width 48% out of 100% */
+	font-weight: bold; /* style of text is set to bold to look attractive*/
+	text-shadow: 3px 3px 5px red; /* text shadow set to red giving the text give a atrractive red colour shadow*/
+	font-size: 25px; /* text size is set to 25px as per it needs*/
 }
 .navigation ul li{
-	list-style: none;
-	font-family: cursive;
-	letter-spacing: 0.5px;
-	padding-right: 10px;
-	padding-left: 10px;
-    font-size: 20px;
+	list-style: none; /* helps to remove the dot */
+	font-family: cursive;/*  text style is set to cursive*/
+	letter-spacing: 0.5%;/* the letter the space of 0.5px from each other*/
+	padding-right: 2%;/*giving padding to the right*/
+	padding-left: 2%px;/* giving padding to the left*/
+    font-size: 20px;/* letter size is set to 20px as per it need */
     
 }
 .navigation ul{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	display: inline-flex;
-	flex-direction: row;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	padding-right: 15px;
-	overflow: hidden;
-	text-align: right;
+	margin-top: 0px;/* margin is set 0 so there wont be any default margin */
+	margin-bottom: 0px;/* margin bottom is set 0*/
+	display: inline-flex;/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: row;/* flex direction is set to row*/
+	padding-bottom: 15px;/* giving padding to the botom*/
+	padding-top: 15px;/* giving padding to the top*/
+	padding-right: 15px;/* giving padding to the right*/
+	overflow: hidden;/* css property so the text dont go out of the box*/
+	text-align: right;/* keeping the text in right side*/
 }
-.navigation ul li a:hover{
+.navigation ul li a:hover{/*navigation while hover*/
 	
-	text-decoration: underline;
-	color: black;
-	font-weight: bold;
-	text-shadow: 3px 3px 5px blue;
+	text-decoration: underline;/* hepls to underline the text while hover*/
+	color: black;/* setting the colour to black*/
+	font-weight: bold;/* text style is set to bold */
+	text-shadow: 3px 3px 5px blue;/* text shadow is set to blue which gives blue colour shadow to the text*/
 	
 
 }
-.navigation ul li a:focus{
-	color: blue;
+.navigation ul li a:focus{/*focus property*/
+	color: blue;/* while focus the text turns into blue*/
 }
 ul li a{
-	text-decoration: none;
+	text-decoration: none;/*keeping the text normal not in default*/
 	color: black;
 }
 .navigation li a {
-	display: block;
+	display: block;/*keeping the display property block*/
 	color: black;
 	
-	padding: 12px 14px;
-	text-decoration:none;
+	padding: 12px 14px;/* padiing is set in all direction*/
+	text-decoration:none;/* no text decoration*/
 }
 .navigation li a:hover:not(.active){
-	background-color: rgba(255,0,0,0.4);
+	background-color: rgba(255,0,0,0.4);/* background is set while hover*/
 }
 .active{
-	background-color: #4CAF50;
+	background-color: #4CAF50;/* background colour is set*/
 }
 .name{
-	font-family: lobster;
-	padding-left: 5px;
-	text-align: left;
-	width: 100%;
-	display: inline-flex;
-	flex-direction: row;	
+	font-family: lobster;/*font style is set to lobster*/
+	padding-left: 5px;/*giving padding to left*/
+	text-align: left;/* keeping the text to left*/
+	width: 100%;/* width is set to 100%*/
+	display: inline-flex;/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: row;/* flex direction is set to row*/
 }
 #image{
-	margin-bottom: 0px;
+	margin-bottom: 0px;/* margin bottom is set 0*/
 }
 #image img{
 	
 	width: 100%;
-	border: 2px solid;
+	border: 2px solid;/*the border of image is given*/
 
 
 }
 #contact{
-	text-align: center;
-	padding-left: 5px;
-	width: 33.33%;
+	text-align: center;/* keeping the text in center*/
+	padding-left: 5px;/*giving padding to left*/
+	width: 33.33%;/* width is set to 33.3%*/
 
 }
 section{
 	
-	background: linear-gradient(to right, #2BC9DE, grey);
+	background: linear-gradient(to right, #2BC9DE, grey);/* linear property is given to the background*/
 	width: 100%;
-	padding: 0px;
-	font-size: 20px;
-	display: flex;
-	flex-direction: row;
-	margin-top: 0px;
+	padding: 0px;/* padding is set all to 0*/
+	font-size: 20px;/* text size is set to 20 as per it need*/
+	display: flex;/*using flex property*/
+	flex-direction: row;/* flex direction is set to row*/
+	margin-top:0px;/* margin is set 0 so there wont be any default margin */
 
 }
 #contact ul{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	display: inline-flex;
-	flex-direction: row;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	margin-top: 0px;/* margin is set 0 so there wont be any default margin */
+	margin-bottom: 0px;/* margin is set 0 so there wont be any default margin */
+	display: inline-flex;/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: row;/* flex direction is set to row*/
+	padding-bottom: 15px;/* giving padding to the bottom*/
+	padding-top: 15px;/* giving padding to the top*/
 	
 
 }
 #contact ul li{
-	list-style: none;
-	font-family: cursive;
-	letter-spacing: 0.5px;
-	padding-right: 5px;
-	padding-left: 5px;
+	list-style: none; /* helps to remove the dot */
+	font-family: cursive;/*font style is set to cursive*/
+	letter-spacing: 0.5px;/* the letter the space of 0.5px from each other*/
+	padding-right: 5px;/* giving padding to the right*/
+	padding-left: 5px;/* giving padding to the left*/
     color: black;
-    display: inline-flex;
-    flex-direction: row;
+    display: inline-flex;/* using flex properties inline so that the flex comes in straight line*/
+    flex-direction: row;/* flex direction is set to row*/
     
 
 
 }
 .main{
-	width: 33.33%;
-	padding: 1%;
+	width: 33.33%;/*width is set to 33.3%*/
+	padding: 1%;/* padding is set to all direction*/
 }
+/* footer part*/
 footer{
-	background-color: #272822;
-	display: inline-flex;
-	flex-direction: row;
-	width: 100%;
+	background-color: #323232;/* background colour is set*/
+	display: inline-flex;/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: row;/* flex direction is set to row*/
+	width: 100%;/*width is set to 100%*/
 
 }
 .text{
-	width: 40%;
-	text-align: center;
-	padding: 5px;
+	width: 40%;/*width is set to 40%*/
+	text-align: center;/* keeping the text in center*/
+	padding: 5px;/* padding is set to all direction*/
+
 	
 }
 .text h2{
-	padding-top: 0px;
-	display: inline;
-	width: 50%;
-	font-weight: bold;
-	text-shadow: 3px 3px 5px blue;
+	padding-top: 0px;/*padding given at the top*/
+	display: inline;/* to keep the text in same line*/
+	width: 50%;/* width is set to 50%*/
+	font-weight: bold;/* text is kept in bold */
+	text-shadow: 3px 3px 5px blue;/* text shadow is set to blue which gives blue colour shadow to the text*/
 }
 #contact h2{
-	padding-top: 0px;
-	text-align: center;
-	font-weight: bold;
-	text-shadow: 3px 3px 5px blue;
+	padding-top: 0px;/*padding given at the top*/
+	text-align: center;/* keeping the text in center*/
+	font-weight: bold;/* text is kept in bold */
+	text-shadow: 3px 3px 5px blue;/* text shadow is set to blue which gives blue colour shadow to the text*/
 }
 .main a{
 	color: black;
-    width: 100px;
-    border: 2px solid green;
-    padding: 5px;
-  	border-radius: 25px;
-  	text-decoration: none;
+    width: 100px;/* width is set to 100px*/
+    border: 2px solid green;/* border is given*/
+    padding: 5px;/* padding is set to all direction*/
+  	border-radius: 25px;/* the edge of border is set */
+  	text-decoration: none;/* the text has no style*/
   	font-size: 20px;
-  	margin-left: 0px;
-  	text-shadow: 0 0 3px grey, 0 0 5px red;
+  	margin-left: 0px;/* margin is set in left*/
+  	text-shadow: 0 0 3px grey, 0 0 5px red;/* text shadow is set to red and grey which gives red and grey colour shadow to the text*/
 }
 .main a #readmore:hover{
-	background-color: red;
+	background-color: red;/* background is set while hover*/
 }	
 .main h4{
-	border: 2px solid green;
+	border: 2px solid green;/* border is given*/
 	width: 100px;
-	border-radius: 25px;
-  	text-decoration: none;
+	border-radius: 25px;/* the edge of border is set */
+  	text-decoration: none;/* the text has no style*/
   	font-size: 20px;
-  	margin-left: 0px;
-  	text-shadow: 0 0 3px grey, 0 0 5px red;
-  	padding: 5px;
-  	cursor: pointer;
+  	margin-left: 0px;/* margin is set in left*/
+  	text-shadow: 0 0 3px grey, 0 0 5px red;/* text shadow is set to red and grey which gives red and grey colour shadow to the text*/
+  	padding: 5px;/* padding is set to all direction*/
+  	cursor: pointer;/* the mouse cursor turns into pointer when selecting the text*/
 }
 
 
 .main h3{
-	font-weight: bold;
-	text-shadow: 3px 3px 5px green;
-	text-align: center;
-	text-decoration: underline;
-	padding: 10px;
+	font-weight: bold;/* text is kept in bold */
+	text-shadow: 3px 3px 5px green;/* text shadow is set to green which gives green colour shadow to the text*/
+	text-align: center;/* keeping the text in center*/
+	text-decoration: underline;/* text style is kept */
+	padding: 10px;/* padding is given in all direction*/
 }
 .main img{
-	float: center;
-	margin-top: 15px;
+	text-align: center;/* keeping the text in center*/
+	margin-top: 15px;/* margin is set in top*/
 	display: block;
-    margin-left: 30%;
-    margin-right: 30%;
-	width: 200px;
-	height: 162px;
-	border: 1px solid #272822;
-    border-radius: 6px;
-    transition: width 2s, height 2s, transform 2s;
-    box-shadow: 3px 3px 4px red;
+    margin-left: 30%;/* margin is set in left*/
+    margin-right: 30%;/* margin is set in right*/
+	width: 200px;/* width is given 200px*/
+	height: 162px;/* height is set to 162px*/
+	border: 1px solid #272822;/* border is given to the image*/
+    border-radius: 6px;/* the edge of border is set */
+    transition: width 2s, height 2s, transform 2s;/*transition property is given for animation*/
+    box-shadow: 3px 3px 4px red;/* box has given shadow red*/
 }
 .main img:hover{
-	box-shadow: 0 0 2px 5px rgba(200, 250, 210, 0.5);
-	width: 210px;
-	transform: rotate(360deg);
+	box-shadow: 0 0 2px 5px rgba(200, 250, 210, 0.5);/* color of box shadow while hover*/
+	width: 210px;/* width is set*/
+	transform: rotate(360deg);/* turns 360 degree while hover*/
 }
 .copy{
-	text-align: center;
-	font-family: bold;
+	text-align: center;/* keeping the text in center*/
+	font-family: bold;/* text is kept in bold */
 	font-size: 25px;
 	width: 33.33%;
 	font-weight: bold;
-	text-shadow: 3px 3px 5px blue;
+	text-shadow: 3px 3px 5px blue;/* text shadow is set to blue which gives blue colour shadow to the text*/
 }
 .main p{
-	padding: 10px;
+	padding: 10px;/* padding is given in all direction*/
 	color: white;
-	text-shadow: 2px 2px 4px #272822;
-	word-break: break-all;
+	text-shadow: 2px 2px 4px #272822;/* text shadow is given*/
+	word-break: break-all;/* to keep the word in same line */
 }
 .main{
-	border: 3px solid grey;
+	border: 3px solid grey;/* border is set */
 }
 .me h3{
 	color: rgb(200,180,90);
-	text-align: center;
+	text-align: center;/* keeping the text in center*/
 	font-size: 25px;
-	font-family: Bodoni MT Black;
+	font-family: Bodoni MT Black;/*text style is given*/
 	
 }
 .me h3:hover{
-	text-decoration: underline;
+	text-decoration: underline;/* text becomes underline while hover*/
 	color: rgb(190, 80, 20);
 	font-size: 30px;
 }
 .me p{
-	padding-left: 0px;
-	padding-right: 10px;
+	padding-left: 0px;/*padding given at the left*/
+	padding-right: 10px;/*padding given at the right*/
 	font-size: 18px;
-	font-family: Imprint MT Shadow;
-	margin-bottom: 50px;
+	font-family: Imprint MT Shadow;/*text style is given*/
+	margin-bottom: 50px;/* margin given at the bottom*/
 	
 }
 .me p:hover{
-	font-weight: bold;
-	text-shadow: 3px 3px 5px blue;
+	font-weight: bold;/* text is kept in bold */
+	text-shadow: 3px 3px 5px blue;/* text shadow is set to blue which gives blue colour shadow to the text*/
 
 }
 .me img{
 	width:150px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	border: 1px solid #272822;
-	box-shadow: 0 0 2px 5px rgba(200, 250, 210, 0.5);
-	margin-left: 10px;
-	transition: width 4s;
+	margin-right: 10px;/* margin given at the right*/
+	margin-bottom: 10px;/* margin given at the bottom*/
+	border: 1px solid #272822;/* border is set */
+	box-shadow: 0 0 2px 5px rgba(200, 250, 210, 0.5);/* box has given shadow */
+	margin-left: 10px;/* margin given at the left*/
+	transition: width 4s;/*transition property is given for animation*/
 	margin-bottom: 40px;
+	float: left;
 }
 .me img:hover{
 	width: 200px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;/* margin given at the bottom*/
 }
 .me{
-	background: linear-gradient(to right, #2BC9DE, grey);
+	background: linear-gradient(to right, #2BC9DE, grey);/* background is given in linear gradient*/
 }
 
 .con .aa form label{
 	font-family: cursive;
 	color: yellow;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin-left: 5px;
-	text-shadow: 2px 2px 2px black;
+	padding-left: 5px;/* padding is given to left*/
+	padding-right: 5px;/* padding is given to right*/
+	margin-left: 5px;/* margin is given to left*/
+	text-shadow: 2px 2px 2px black;/* text shadow is set to black which gives black colour shadow to the text*/
 	font-size: 25px;
 }
 .con .aa form input{
-	border: 1px solid green;
-	border-radius: 5px;
-	padding-left: 20px;
+	border: 1px solid green;/* border is given*/
+	border-radius: 5px;/* the edge of border is set */
+	padding-left: 20px;/* padding is given to left*/
 	font-family: italic;
-	box-shadow: 2px 2px 2px blue;
-	padding: 6% 2%;
+	box-shadow: 2px 2px 2px blue;/* box has given shadow blue*/
+	padding: 6% 2%;/* padding is given %6 in top and bottom and %2 in right and left*/
 	font-family: cursive;
-	padding-right: 20px;
-	margin-left: 8px;
-	text-align: center;
+	padding-right: 20px;/* padding is given to right*/
+	margin-left: 8px;/* margin is given to left*/
+	text-align: center;/* keeping the text in center*/
 }
 
 .con legend{
-	text-align: center;
-	text-shadow: 2px 2px 2px grey;
+	text-align: center;/* keeping the text in center*/
+	text-shadow: 2px 2px 2px grey;/* text shadow is set to grey which gives grey colour shadow to the text*/
 	font-size: 25px;
 }
 
 .con{
-	background: linear-gradient(to right, #2BC9DE, grey);	
+	background: linear-gradient(to right, #2BC9DE, grey);/* background is given in linear gradient*/	
 	
 }
 
 .con h4{
-	text-shadow: 2px 2px 2px grey;
-	padding-left:15px;
+	text-shadow: 2px 2px 2px grey;/* text shadow is set to grey which gives grey colour shadow to the text*/
+	padding-left:15px;/* padding is given to left*/
 	font-size: 30px;
 }
 .con .bb img{
-	
-	height: 400px;
+	height: 400px;/*height is been set*/
 	float: right;
-
-
 }
-
 .con .aa form{
-
-	margin: 0px;
-	float: left;
-	
-}
-.con iframe{
-	padding-left: 15px;
+	margin: 0px;/* margin is et to 0*/
+	float: left;	
 }
 .cv{
-	background: linear-gradient(to right, #2BC9DE, grey);	
+	background: linear-gradient(to right, #2BC9DE, grey);	/* background is given in linear gradient*/
 }
 .cv .inner h3{
 	font-size: 30px;
-	text-align: center;
+	text-align: center;/* keeping the text in center*/
 	font-family: Bodoni MT Black;
-	text-decoration: underline;
+	text-decoration: underline;/* text becomes underline */
 }
 .cv .inner p{
-	text-shadow: 3px 3px 3px grey;
+	text-shadow: 3px 3px 3px grey;/* text shadow is set to grey which gives grey colour shadow to the text*/
 	font-family: Calibri (Body);
-	padding-left: 10px;
+	padding-left: 10px;/* padding is given to left*/
 	font-size: 19px;
 }
 .cv .inner legend{
-	text-align: center;
-	text-shadow: 2px 2px 2px grey;
+	text-align: center;/* keeping the text in center*/
+	text-shadow: 2px 2px 2px grey;/* text shadow is set to grey which gives grey colour shadow to the text*/
 	font-size: 25px;
  	font-family: Algerian;
 }
 .cv .inner h2{
-	text-shadow: 4px 4px 4px yellow;
+	text-shadow: 4px 4px 4px yellow;/* text shadow is set to yellow which gives yellow colour shadow to the text*/
 	font-size: 19px;
 }
 .cv .inner ul{
 	width:50%;
-	text-decoration: none;
-	list-style-type: square;
+	text-decoration: none;/* no text decoration is given*/
+	list-style-type: square;/* list style/dots are in square*/
 }
 .cv .inner li{
 	font-size: 25px;
@@ -365,26 +360,27 @@ footer{
 
 /*Contact Card CSS*/
 .class{
-	display: inline-flex;
-	flex-direction: row;
+	display: inline-flex;/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: row;/* flex direction is set to row*/
 	justify-content: space-around;
 	width: 100%;
 }
-iframe{
-	width: 50%;
+.card1 img{
+	width: 100%;
 }
+
 .card1 {
-  box-shadow: 0 4px 8px #fff;
+  box-shadow: 0 4px 8px #fff;/*box has given shadow*/
   width: 45%;
   max-width: 260px;
   margin: auto;
-  text-align: center;
+  text-align: center;/* text is kept in center*/
   font-family: arial;
 }
 .box {
-  padding: 0 16px;
+  padding: 0 16px;/* padding is set in all direction*/
   background: #fff;
-  padding-bottom: 10px;
+  padding-bottom: 10px;/* padding is given in bottom*/
 }
 
 .box:after {
@@ -394,42 +390,42 @@ iframe{
 }
 
 button {
-  border: none;
+  border: none;/* no border is kept*/
   outline: 0;
-  display: inline-block;
+  display: inline-block;/* keeping text in same line*/
   padding: 8px;
   color: white;
   background-color: #000;
-  text-align: center;
-  cursor: pointer;
+  text-align: center;/* text is kept in center*/
+  cursor: pointer;/* the mouse cursor turns into pointer when selecting the text*/
   width: 100%;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 10px;/* margin is given to bottom*/
 }
 .socialmedia a{
-	width: 30px;
+	width: 30px;/*width and height  is set*/
 	height: 20px;
 }
 a {
-  text-decoration: none;
+  text-decoration: none;/* no text decoration is given*/
   font-size: 22px;
   color: black;
 }
 button:hover, a:hover {
-  opacity: 0.7;
+  opacity: 0.7;/* trensparent property*/
 }
 /*This is for cv*/
 .first1{
 	width: 100%;
-	display: inline-flex;
-	flex-direction: row;
+	display: inline-flex;/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: row;/* flex direction is set to row*/
 	justify-content: space-around;
 }
 .other{
 	width: 33%;
 }
 .other ul li{
-	text-shadow: 3px 3px 3px grey;
+	text-shadow: 3px 3px 3px grey;/* text shadow set to grey giving the text give a atrractive grey colour shadow*/
 
 }
 .skill{
@@ -439,18 +435,18 @@ button:hover, a:hover {
 
 }
 .skill ul li{
-	text-shadow: text-shadow: 3px 3px 3px grey;
+	text-shadow: text-shadow: 3px 3px 3px grey;/* text shadow set to grey giving the text give a atrractive grey colour shadow*/
 }
 .experience{
 	width: 33%;
 }
 .experience ul li{
-	text-shadow: text-shadow: 3px 3px 3px grey;
+	text-shadow: 3px 3px 3px grey;/* text shadow set to grey giving the text give a atrractive grey colour shadow*/
 }
 #rrr{
-	background:linear-gradient(to right, #2BC9DE, grey);
-	padding-left: 10px;
-	padding-right: 10px;
+	background:linear-gradient(to right, #2BC9DE, grey);/* background given linear gradient property*/
+	padding-left: 10px;/*padding given to left*/
+	padding-right: 10px;/*padding given to right*/
 
 }
 #rrr img{
@@ -458,39 +454,42 @@ button:hover, a:hover {
 	height: 600px;
 }
 #another{
-	background: linear-gradient(to right, #2BC9DE, grey);
-	padding-left: 10px;
-	padding-right: 10px;
-	word-wrap: all;
+	background: linear-gradient(to right, #2BC9DE, grey);/* background given linear gradient property*/
+	padding-left: 10px;/*padding given to left*/
+	padding-right: 10px;/*padding given to right*/
+	word-wrap: all;/* words doesnt overflow*/
 	font-family: Imprint MT Shadow;
 	font-size: 18px;
 }
 #another p:hover{
 	font-weight: bold;
-	text-shadow: 3px 3px 5px blue;
+	text-shadow: 3px 3px 5px blue;/* text shadow set to blue giving the text give a atrractive blue colour shadow*/
 }
 #rrr p{
 	font-size: 30px;
-	text-align: center;
-	text-decoration: underline;
+	text-align: center;/*keeping the text in center*/
+	text-decoration: underline;/* underline decoration is given*/
 	color: rgb(100, 100, 100);
-	text-shadow: 4px 4px 4px #fff;
+	text-shadow: 4px 4px 4px #fff;/* shadow is given*/
 
+}
+.ff{
+	width: 15%;
 }
 .ff p{
 	color:#A7896D;
-	text-align: left;
-	padding-left: 10px;
-	opacity: 0.1;
-	transition: width 6s;
+	text-align: left;/*keeping the text in left*/
+
+	opacity: 0.1;/* transparent property*/
+	transition: width 6s;/*transition property is given for animation*/
 	transition-timing-function: linear;
 	margin: 0px;
 	}
 .ee .ff p:hover{
 	color: #000;
-	display: inline;
+	display: inline;/* keeps the text in line*/
 	padding-left: 5px;
-	text-shadow: 3px 3px 5px blue;
+	text-shadow: 3px 3px 5px blue;/* text shadow set to blue giving the text give a atrractive blue colour shadow*/
 	font-size: 22px;
 	opacity: 1;
 	font-weight: bold;
@@ -498,18 +497,246 @@ button:hover, a:hover {
 	padding-top: 5px;
 }
 .ee{
-	display: inline-flex;
-	flex-direction: row;
-	width: 1850px;
+	display: inline-flex;/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: row;/* flex direction is set to row*/
+	width:100%;
 
 }
 
-
+.imagehover{
+	width: 10%;
+}
 .imagehover img{
 	width: 100px;
 	height: 100px;
-	box-shadow: 3px 3px 3px yellow;
-	border-radius: 6px;
-	border: 1px solid yellow;
 	margin: 4px;
+}
+/* responsive*/
+@media (max-width: 1200px){/*for 1200px*/
+	section{
+		flex-direction: column;
+	}
+	.main img{
+	text-align: center;
+	margin-top: 15px;
+	display: block;
+    margin-left: 35%;
+    margin-right: 30%;
+	width: 30%;
+	height: 162px;
+	border: 1px solid #272822;
+    border-radius: 6px;
+    transition: width 2s, height 2s, transform 2s;
+    box-shadow: 3px 3px 4px red;
+}
+.main{
+	width: 100%;/*width is set to 33.3%*/
+	padding: 1%;/* padding is set to all direction*/
+}
+.cv
+{
+	display: flex;
+	flex-direction: column;
+}
+.inner
+{
+	width: 100%;
+	display: flex;
+	flex: column;
+}
+.first1{
+	width: 100%;
+	/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: column;/* flex direction is set to row*/
+	
+}
+fieldset
+{
+	width: 100%;
+}
+.other{
+	width: 100%;
+}
+.skill{
+	width: 100%;
+	padding: 0 100px;
+	display:  block;
+
+}
+.experience{
+	width: 100%;
+}
+header
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.ee
+{margin: 0 auto;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+.ff
+{
+	display: none;
+}
+.navigation
+{
+	width: 100%;
+}
+.navigation ul
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding:0;
+}
+.navigation ul li
+{
+	text-align: center;
+}
+
+.inner
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#image img
+{
+	border: none;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+fieldset
+{
+	justify-content: center;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.skill{
+	width: 33%;
+	padding: 20px;
+	display:  block;
+
+}
+
+}
+@media (max-width: 700px){/*for 700px*/
+	section{
+		flex-direction: column;
+	}
+	.main img{
+	text-align: center;
+	margin-top: 15px;
+	display: block;
+    margin-left: 25%;
+    margin-right: 30%;
+	width: 50%;
+	height: 162px;
+	border: 1px solid #272822;
+    border-radius: 6px;
+    transition: width 2s, height 2s, transform 2s;
+    box-shadow: 3px 3px 4px red;
+}
+.main{
+	width: 100%;/*width is set to 33.3%*/
+	padding: 1%;/* padding is set to all direction*/
+}
+.cv
+{
+	display: flex;
+	flex-direction: column;
+}
+.inner
+{
+	width: 100%;
+	display: flex;
+	flex: column;
+}
+.first1{
+	width: 100%;
+	/* using flex properties inline so that the flex comes in straight line*/
+	flex-direction: column;/* flex direction is set to row*/
+	
+}
+fieldset
+{
+	width: 100%;
+}
+.other{
+	width: 100%;
+}
+.skill{
+	width: 100%;
+	padding: 0 100px;
+	display:  block;
+
+}
+.experience{
+	width: 100%;
+}
+header
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.ee
+{margin: 0 auto;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+.ff
+{
+	display: none;
+}
+.navigation
+{
+	width: 100%;
+}
+.navigation ul
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding:0;
+}
+.navigation ul li
+{
+	text-align: center;
+}
+
+.inner
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+#image img
+{
+	border: none;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+fieldset
+{
+	justify-content: center;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.skill{
+	width: 33%;
+	padding: 20px;
+	display:  block;
+
+}
+
 }
