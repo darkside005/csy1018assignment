@@ -27,7 +27,6 @@ header{ /*header part*/
 .navigation ul li{
 	list-style: none; /* helps to remove the dot */
 	font-family: cursive;/*  text style is set to cursive*/
-	letter-spacing:0.5;/* the letter the space of 0.5% from each other*/
 	padding-right: 2%;/*giving padding to the right*/
 	padding-left: 2%;/* giving padding to the left*/
     font-size: 20px;/* letter size is set to 20px as per it need */
@@ -574,7 +573,7 @@ header
 }
 .ee
 {margin: 0 auto;
-	width: 13%;
+	width: 10%;
 	display: flex;
 	flex-direction: column;
 }
@@ -688,7 +687,7 @@ header
 }
 .ee
 {margin: 0 auto;
-	width: 30%;
+	width: 15%;
 	display: flex;
 	flex-direction: column;
 }
