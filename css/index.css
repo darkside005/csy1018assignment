@@ -40,7 +40,7 @@ header{ /*header part*/
 	flex-direction: row;/* flex direction is set to row*/
 	padding-bottom: 15px;/* giving padding to the botom*/
 	padding-top: 15px;/* giving padding to the top*/
-	padding-right: 15px;/* giving padding to the right*/
+	padding-right: 10px;/* giving padding to the right*/
 	overflow: hidden;/* css property so the text dont go out of the box*/
 	text-align: right;/* keeping the text in right side*/
 }
